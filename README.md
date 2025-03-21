@@ -16,6 +16,6 @@ Notero is a sleek, all-in-one productivity tool that helps you take notes, manag
 
 ✅ Built-in Pomodoro timer ⏳ for deep focus and work sessions
 
-✅ Cross-platform & sync-friendly
+✅ Fully web-based and cross-platform
 
 ✅ Seamless and intuitive user experience

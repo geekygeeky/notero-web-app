@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider";
-import { Home } from "lucide-react";
+import Home from "./pages/Home";
 import { Routes, Route } from "react-router";
 
 function App() {

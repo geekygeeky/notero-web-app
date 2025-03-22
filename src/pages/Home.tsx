@@ -10,7 +10,7 @@ import imgPomo from "@/assets/home-page-img-pomo.svg";
 function Home() {
   return (
     <>
-      <nav className="container flex m-auto py-10">
+      <nav className="container flex m-auto py-10 px-8 md:px-0">
         <div className="flex items-center gap-2">
           <img src={logo} alt="Notero logo" />
           <Link to="/" className="font-bold text-lg">
@@ -32,31 +32,32 @@ function Home() {
 
       <div className="mt-8 flex flex-col justify-center items-center gap-12">
         <div className="mb-2">
-          <h1 className="text-6xl text-center font-extrabold">
+          <h1 className="text-3xl md:text-6xl text-center font-extrabold">
             Your simple Workspace <br /> for <br />
             Writing & Planning
           </h1>
-          <p className="mt-8">
+          <p className="mt-8 text-center">
             Write your essays & documents efficiently. Get more done with
             pomodoro timer and nature sounds to help you focus.{" "}
           </p>
         </div>
-        <img src={iMacYellow} alt="imac image" className="mt-24" />
+
+        <img src={iMacYellow} alt="imac image" className="mt-24 px-8" />
 
         <div className="mb-2">
-          <h1 className="text-6xl text-center font-extrabold">
+          <h1 className="text-3xl md:text-6xl text-center font-extrabold">
             A productivity tool you <br /> can trust.
           </h1>
-          <p className="mt-8">Be your most productive self with our tools</p>
+          <p className="mt-8 text-center">Be your most productive self with our tools</p>
         </div>
 
-        <div className="mb-2">
+        <div className="mb-2 px-8">
           <img src={imgEditor} alt="imac image" className="mt-24" />
           <img src={imgCta} alt="imac image" className="mt-24" />
         </div>
 
         <div className="mb-2">
-          <h1 className="text-6xl text-center font-extrabold">
+          <h1 className="text-3xl md:text-6xl text-center font-extrabold">
             Dark Mode to protect <br /> your eyes.
           </h1>
           <p className="mt-8 text-center">
@@ -64,13 +65,13 @@ function Home() {
           </p>
         </div>
 
-        <img src={imgPomo} alt="imac image" className="mt-24" />
+        <img src={imgPomo} alt="imac image" className="mt-24 px-8" />
       </div>
 
-      <section className="mt-16 flex flex-col items-center justify-center bg-[#FFF5CC] relative overflow-hidden py-24">
+      <section className="mt-16 flex flex-col items-center justify-center bg-[#FFF5CC] relative overflow-hidden py-12 md:py-24">
         {/* Abstract shapes */}
-        <div className="absolute -top-8 -left-10 w-36 h-60 bg-white opascity-50 rounded-4xl transform -rotate-12"></div>
-        <div className="absolute -top-2 left-4 w-36 h-36 bg-[#FFFFFF85] opascity-50 rounded-4xl transform -rotate-24"></div>
+        <div className="absolute -top-8 -left-10 w-24 h-40 md:w-36 md:h-60 bg-white opascity-50 rounded-4xl transform -rotate-12"></div>
+        <div className="absolute -top-2 left-4 w-24 h-24 md:w-36 md:h-36 bg-[#FFFFFF85] opascity-50 rounded-4xl transform -rotate-24"></div>
 
         {/* Abstract shapes */}
         <div className="absolute -bottom-16 -right-20 w-60 h-30 bg-[#FFD15A52] opascity-50 rounded-4xl transform rotate-20"></div>
@@ -90,7 +91,7 @@ function Home() {
         </Button>
       </section>
 
-      <footer className="bg-[#0B0D17] py-24 px-32 text-[#EEEFF4] m-auto flex justify-between items-center">
+      <footer className="bg-[#0B0D17] py-12 md:py-24 px-8 md:px-32 text-[#EEEFF4] m-auto flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img src={logo} alt="Notero logo" />
           <Link to="/" className="font-bold text-lg">

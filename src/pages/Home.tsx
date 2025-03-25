@@ -23,7 +23,7 @@ function Home() {
 
           <Button
             asChild
-            className="bg-[#F3D468] hover:bg-[#F3D468] text-dark rounded-4xl"
+            className="bg-[#F3D468] hover:bg-[#F3D468] text-black rounded-4xl"
           >
             <Link to="/login">Get Started</Link>
           </Button>
@@ -104,13 +104,13 @@ function Home() {
 
         <div className="flex justify-between items-end gap-16">
           <div className="flex flex-col gap-3 text-sm">
-            <Link to="/">Login</Link>
+            <Link to="/login">Login</Link>
             <Link to="/">X (Twitter)</Link>
             <Link to="/">Instagram</Link>
           </div>
 
           <div className="flex flex-col gap-6 text-sm">
-            <Link to="/" className="flex items-center gap-1">
+            <Link to="/" className="flex items-center gap-1" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
               <ArrowUp size={18} /> <span>Back to top</span>
             </Link>
             <p>&copy; Notero {new Date().getFullYear()}</p>
